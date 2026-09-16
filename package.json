@@ -1,0 +1,13 @@
+{
+  "name": "playwright-api-mock-borrow-tests",
+  "version": "1.0.0",
+  "description": "API automation tests for the mock-borrow-api service, using Playwright's request context.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed-report": "playwright test --reporter=html && playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.20.3"
+  }
+}
